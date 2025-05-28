@@ -71,8 +71,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "700px",
-			"wideSize": "1100px"
+			"contentSize": "768px",
+			"wideSize": "1280px"
 		},
 		"spacing": {
 			"units": [
@@ -335,6 +335,7 @@
 			"title": "Footer"
 		}
 	],
+	
 	"version": 3,
 	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }
