@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Query
- * Slug: storegrid/query
+ * Slug: wcs-storegrid/query
  * Categories: posts
  * Block Types: core/post-conent, core/query, core/post-title
  *
- * @package storegrid
+ * @package wcs-storegrid
  * @since 1.0.0
  */
 ?>
@@ -14,14 +14,14 @@
 	<!-- wp:post-template -->
 		<!-- wp:post-title {"level":2,"isLink":true} /-->
 		<!-- wp:post-featured-image {"isLink":true} /-->
-		<!-- wp:pattern {"slug":"storegrid/hidden-post-meta"} /-->
+		<!-- wp:pattern {"slug":"wcs-storegrid/hidden-post-meta"} /-->
 		<!-- wp:post-excerpt {"moreText":"Read more"} /-->
 		<!-- wp:spacer {"height":"1rem"} -->
 		<div style="height:1rem" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 	<!-- /wp:post-template -->
 	<!-- wp:query-no-results -->
-	<!-- wp:paragraph --><p><?php esc_html_e( 'No results found.', 'storegrid'); ?></p><!-- /wp:paragraph -->
+	<!-- wp:paragraph --><p><?php esc_html_e( 'No results found.', 'wcs-storegrid'); ?></p><!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 	<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<!-- wp:query-pagination-previous /-->

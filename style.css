@@ -1,14 +1,13 @@
 /*
-Theme Name: storegrid
+Theme Name: StoreGrid
 Theme URI: https://github.com/WCStudioHQ/StoreGrid
 Description: StoreGrid is a modern, full-site editing theme designed for WordPress. It features a clean and responsive design, perfect for showcasing your content. The theme supports block patterns and is optimized for performance and accessibility.
 Author: WC Studio
 Author URI: https://wcstudio.com
 Tags: full-site-editing, block-patterns,blog
-Text Domain: storegrid
-Requires at least: 6.4
+Text Domain: wcs-storegrid
 Requires PHP: 7.4
-Tested up to: 6.4
+Tested up to: 6.8
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

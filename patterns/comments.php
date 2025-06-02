@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Comments
- * Slug: storegrid/comments
+ * Slug: wcs-storegrid/comments
  * Categories: text
  *
- * @package storegrid
+ * @package wcs-storegrid
  * @since 1.0.0
  */
 ?>
@@ -14,7 +14,7 @@
 		<!-- wp:comments -->
 		<div class="wp-block-comments">
 			<!-- wp:heading -->
-			<h2><?php esc_html_e( 'Comments', 'storegrid' ); ?></h2>
+			<h2><?php esc_html_e( 'Comments', 'wcs-storegrid' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:comments-title /-->
 			<!-- wp:comment-template -->

@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Hidden post meta
- * Slug: storegrid/hidden-post-meta
+ * Slug: wcs-storegrid/hidden-post-meta
  * Inserter: no
  *
- * @package storegrid
+ * @package wcs-storegrid
  * @since 1.0.0
  */
 ?>
@@ -18,7 +18,7 @@
 	<!-- /wp:group -->
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
-		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html__( 'Categories: ', 'storegrid' )?>"} /-->
+		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html__( 'Categories: ', 'wcs-storegrid' )?>"} /-->
 	</div>
 	<!-- /wp:group -->
 </div>

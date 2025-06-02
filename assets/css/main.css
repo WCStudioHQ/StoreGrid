@@ -1,81 +1,64 @@
-/* Main Styles for Storegrid Theme */
+/* Main Styles for WCS Storegrid Theme */
 
-/* StartSearch Block Styles for storegird navigation */
-
-.storegrid_search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper {
+/* Search styles */
+.wcs-storegrid_search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper {
     overflow: visible !important;
 }
 
-.storegrid_search {
+.wcs-storegrid_search {
     background-color: inherit;
     overflow: visible !important;
 }
 
-.storegrid_search input{
-    border: 1px solid #000;
-    padding: 4px;
+.wcs-storegrid_search input{
     width: 150px;
+    padding: 0;
+    border: 1px solid #ddd;
 }
-.storegrid_search button{
+
+.wcs-storegrid_search button{
     border-radius: 50%;
 }
-/* End Search Block Styles for storegird navigation */
-
-/* storegrid main menu styles */
-
-
-.storegrid-main-menu .wp-block-navigation-link a{
-    color: var(--wp--preset--color--primary) !important; ;
-}
-.storegrid-main-menu .wp-block-navigation-link a:hover{
-    color: var(--wp--preset--color--secondary) !important; ;
-    text-decoration: underline;
+.wcs-storegrid_search button:focus{
+    outline: 2px solid var(--wp--preset--color--primary);
+    outline-offset: 4px;
 }
 
-/* storegrid main menu styles end */
+/* wcs-storegrid main menu styles */
+.wcs-storegrid-main-menu .wp-block-navigation-link a{
+    color: var(--wp--preset--color--base);
+}
 
+.wcs-storegrid-main-menu .wp-block-navigation-link a:hover{
+    color: var(--wp--preset--color--primary);
+}
 
-
+/* wcs-storegrid main menu styles end */
 
 /* Start  Responsive styles for storegrid theme */
 
 /* Mobile devices (425px and below) */
 @media screen and (max-width: 425px) {
     /*storegrid  footer styles */
-    .storegrid-footer-container .storegrid-footer-row {
+    .wcs-storegrid-footer-container .wcs-storegrid-footer-row {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
-         
-    
+        text-align: center;    
     }
   
 }
 
 /* Tablets and small devices (426px to 768px) */
 @media screen and (min-width: 426px) and (max-width: 768px) {
-    /*storegrid  footer styles */
-    .storegrid-footer-container .storegrid-footer-row {
+    .wcs-storegrid-footer-container .wcs-storegrid-footer-row {
         display: flex;
         flex-direction: row;
         align-items: center;
         text-align: center;
-         
-    
     }
    
 }
 
-/* Laptops and desktops (769px to 1024px) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-   
-}
-
-/* Large screens (1025px and above) */
-@media screen and (min-width: 1025px) {
-   
-}  
-
-/* end  Responsive styles for storegrid theme */
+/* end  Responsive styles for wcs-storegrid theme */
 

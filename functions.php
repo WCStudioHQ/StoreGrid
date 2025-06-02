@@ -81,24 +81,24 @@ if (! function_exists('storegrid_block_patterns')) {
 
 	function storegrid_block_patterns()
 	{
-		if (! WP_Block_Patterns_Registry::get_instance()->is_registered('storegrid/two-column-post')) {
+		if (! WP_Block_Patterns_Registry::get_instance()->is_registered('wcs-storegrid/two-column-post')) {
 			register_block_pattern(
-				'storegrid/two-column-post',
+				'wcs-storegrid/two-column-post',
 				[
-					'title'       => __('Two Column Post', 'storegrid'),
-					'description' => __('A two-column layout for displaying posts.', 'storegrid'),
+					'title'       => __('Two Column Post', 'wcs-storegrid'),
+					'description' => __('A two-column layout for displaying posts.', 'wcs-storegrid'),
 					'content'     => file_get_contents(get_template_directory() . '/patterns/two-column-post.php'),
-					'categories'  => ['storegrid'],
+					'categories'  => ['wcs-storegrid'],
 					'keywords'    => ['post', 'two-column', 'layout'],
 				]
 			);
 		}
-		if (! WP_Block_Patterns_Registry::get_instance()->is_registered('storegrid/storegrid-hero')) {
+		if (! WP_Block_Patterns_Registry::get_instance()->is_registered('wcs-storegrid/storegrid-hero')) {
 			register_block_pattern(
-				'storegrid/storegrid-hero',
+				'wcs-storegrid/storegrid-hero',
 				[
-					'title'       => __('Storegrid Hero Section', 'storegrid'),
-					'description' => __('A hero section with a cover image, heading, and button.', 'storegrid'),
+					'title'       => __('Storegrid Hero Section', 'wcs-storegrid'),
+					'description' => __('A hero section with a cover image, heading, and button.', 'wcs-storegrid'),
 					'content'     => file_get_contents(get_template_directory() . '/patterns/hero.php'),
 					'categories'  => ['banner'],
 					'keywords'    => ['hero', 'cover', 'image', 'heading', 'button'],
@@ -126,7 +126,7 @@ if (! function_exists('storegrid_register_block_styles')) {
 				'block' => 'core/paragraph',
 				'style' => [
 					'name'  => 'highlight',
-					'label' => __('Highlight', 'storegrid'),
+					'label' => __('Highlight', 'wcs-storegrid'),
 					'inline_style' => '.is-style-highlight { background-color: var(--wp--preset--color--secondary); padding: 5px; }',
 				],
 			],
@@ -134,7 +134,7 @@ if (! function_exists('storegrid_register_block_styles')) {
 				'block' => 'core/list',
 				'style' => [
 					'name'  => 'colored-marker',
-					'label' => __('Colored Marker', 'storegrid'),
+					'label' => __('Colored Marker', 'wcs-storegrid'),
 					'inline_style' => '.is-style-colored-marker li::marker { color: var(--wp--preset--color--primary); }',
 				],
 			],

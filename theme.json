@@ -182,6 +182,17 @@
 				}
 			},
 			"core/post-comments-form": {
+				"elements": {
+					"button": {
+						":focus": {
+							"outline": {
+								"color": "var(--wp--preset--color--primary)",
+								"offset": "4px",
+								"style": "solid"
+							}
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
@@ -290,12 +301,12 @@
 			"link": {
 				":active": {
 					"color": {
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--primary)"
 					}
 				},
 				":focus": {
 					"color": {
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--primary)"
 					}
 				},
 				":hover": {
@@ -335,7 +346,6 @@
 			"title": "Footer"
 		}
 	],
-	
 	"version": 3,
 	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }
